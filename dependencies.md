@@ -1,8 +1,8 @@
 # CRI-O Dependency Report
 
-_Generated on Wed, 21 Aug 2024 14:43:28 UTC for commit [9f9bf39][0]._
+_Generated on Wed, 21 Aug 2024 17:59:32 UTC for commit [79b48c9][0]._
 
-[0]: https://github.com/cri-o/cri-o/commit/9f9bf39f9ce79ace516291337fd23dd67749e294
+[0]: https://github.com/cri-o/cri-o/commit/79b48c94c8f72e2a1a2ad19a7feb0e5b5c71e29a
 
 ## Outdated Dependencies
 
@@ -11,8 +11,9 @@ _Generated on Wed, 21 Aug 2024 14:43:28 UTC for commit [9f9bf39][0]._
 | github.com/containers/common                           | v0.60.1                            | v0.60.2                            | true   | true             |
 | github.com/containers/image/v5                         | v5.32.1                            | v5.32.2                            | true   | true             |
 | github.com/cri-o/ocicni                                | v0.4.2                             | v0.4.3                             | true   | true             |
-| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20240821085223-f071c8cadac1 | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20240821171228-8ccc8a8d0b54 | true   | true             |
 | github.com/prometheus/client_golang                    | v1.20.0                            | v1.20.1                            | true   | true             |
+| k8s.io/utils                                           | v0.0.0-20240711033017-18e509b52bc8 | v0.0.0-20240821151609-f90d01438635 | true   | true             |
 
 ## All Dependencies
 
@@ -429,7 +430,7 @@ _Generated on Wed, 21 Aug 2024 14:43:28 UTC for commit [9f9bf39][0]._
 | github.com/golang/mock                                                                  | v1.6.0                                |                                     | true   | true             |
 | github.com/golang/protobuf                                                              | v1.5.4                                |                                     | false  | true             |
 | github.com/golang/snappy                                                                | v0.0.4                                |                                     | false  | true             |
-| github.com/google/btree                                                                 | v1.0.1                                | v1.1.2                              | false  | true             |
+| github.com/google/btree                                                                 | v1.0.1                                | v1.1.3                              | false  | true             |
 | github.com/google/cel-go                                                                | v0.20.1                               | v0.21.0                             | false  | true             |
 | github.com/google/certificate-transparency-go                                           | v1.1.8                                | v1.2.1                              | false  | true             |
 | github.com/google/flatbuffers                                                           | v2.0.8+incompatible                   | v24.3.25+incompatible               | false  | true             |
@@ -496,7 +497,7 @@ _Generated on Wed, 21 Aug 2024 14:43:28 UTC for commit [9f9bf39][0]._
 | github.com/jstemmer/go-junit-report                                                     | v0.9.1                                | v1.0.0                              | false  | true             |
 | github.com/julienschmidt/httprouter                                                     | v1.3.0                                |                                     | false  | true             |
 | github.com/jung-kurt/gofpdf                                                             | v1.0.3-0.20190309125859-24315acbbda5  | v1.16.2                             | false  | true             |
-| github.com/kata-containers/kata-containers/src/runtime                                  | v0.0.0-20240208092920-b99f57452225    | v0.0.0-20240821085223-f071c8cadac1  | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime                                  | v0.0.0-20240208092920-b99f57452225    | v0.0.0-20240821171228-8ccc8a8d0b54  | true   | true             |
 | github.com/kballard/go-shellquote                                                       | v0.0.0-20180428030007-95032a82bc51    |                                     | false  | true             |
 | github.com/kevinburke/ssh_config                                                        | v1.2.0                                |                                     | false  | true             |
 | github.com/kisielk/errcheck                                                             | v1.5.0                                | v1.7.0                              | false  | true             |
@@ -800,7 +801,7 @@ _Generated on Wed, 21 Aug 2024 14:43:28 UTC for commit [9f9bf39][0]._
 | k8s.io/kms                                                                              | v0.31.0                               |                                     | false  | true             |
 | k8s.io/kube-openapi                                                                     | v0.0.0-20240228011516-70dd3763d340    | v0.0.0-20240816214639-573285566f34  | false  | true             |
 | k8s.io/kubelet                                                                          | v0.31.0                               |                                     | true   | true             |
-| k8s.io/utils                                                                            | v0.0.0-20240711033017-18e509b52bc8    |                                     | true   | true             |
+| k8s.io/utils                                                                            | v0.0.0-20240711033017-18e509b52bc8    | v0.0.0-20240821151609-f90d01438635  | true   | true             |
 | knative.dev/pkg                                                                         | v0.0.0-20230612155445-74c4be5e935e    | v0.0.0-20240815051656-89743d9bbf7c  | false  | true             |
 | lukechampine.com/uint128                                                                | v1.2.0                                | v1.3.0                              | false  | true             |
 | modernc.org/cc/v3                                                                       | v3.36.3                               | v3.41.0                             | false  | true             |
