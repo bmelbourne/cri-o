@@ -1,19 +1,20 @@
 # CRI-O Dependency Report
 
-_Generated on Fri, 31 Jan 2025 22:04:40 UTC for commit [fe40da8][0]._
+_Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 
-[0]: https://github.com/cri-o/cri-o/commit/fe40da85f683019342aa8545b676d09ecce56d57
+[0]: https://github.com/cri-o/cri-o/commit/adfec0a4b167a951b07c6fdc5f06a55231db611a
 
 ## Outdated Dependencies
 
 |                         MODULE                         |              VERSION               |            NEW VERSION             | DIRECT | VALID TIMESTAMPS |
 |--------------------------------------------------------|------------------------------------|------------------------------------|--------|------------------|
+| github.com/containers/common                           | v0.61.1                            | v0.62.0                            | true   | true             |
 | github.com/containers/image/v5                         | v5.33.1                            | v5.34.0                            | true   | true             |
 | github.com/containers/storage                          | v1.56.1                            | v1.57.1                            | true   | true             |
 | github.com/cyphar/filepath-securejoin                  | v0.3.6                             | v0.4.1                             | true   | true             |
-| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20250131161802-41f23f1d2a96 | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20250201072944-a806d74ce32e | true   | true             |
 | k8s.io/utils                                           | v0.0.0-20241104100929-3ea5e8cea738 | v0.0.0-20241210054802-24370beab758 | true   | true             |
-| sigs.k8s.io/release-utils                              | v0.9.0                             | v0.10.0                            | true   | true             |
+| sigs.k8s.io/release-utils                              | v0.9.0                             | v0.11.0                            | true   | true             |
 
 ## All Dependencies
 
@@ -299,7 +300,7 @@ _Generated on Fri, 31 Jan 2025 22:04:40 UTC for commit [fe40da8][0]._
 | github.com/containerd/zfs                                                               | v1.1.0                                | v1.2.0                              | false  | true             |
 | github.com/containernetworking/cni                                                      | v1.2.3                                |                                     | true   | true             |
 | github.com/containernetworking/plugins                                                  | v1.6.2                                |                                     | true   | true             |
-| github.com/containers/common                                                            | v0.61.1                               |                                     | true   | true             |
+| github.com/containers/common                                                            | v0.61.1                               | v0.62.0                             | true   | true             |
 | github.com/containers/conmon                                                            | v2.0.20+incompatible                  |                                     | true   | true             |
 | github.com/containers/conmon-rs                                                         | v0.6.6                                |                                     | true   | true             |
 | github.com/containers/image/v5                                                          | v5.33.1                               | v5.34.0                             | true   | true             |
@@ -397,7 +398,7 @@ _Generated on Fri, 31 Jan 2025 22:04:40 UTC for commit [fe40da8][0]._
 | github.com/golang/protobuf                                                              | v1.5.4                                |                                     | false  | true             |
 | github.com/golang/snappy                                                                | v0.0.4                                |                                     | false  | true             |
 | github.com/google/btree                                                                 | v1.0.1                                | v1.1.3                              | false  | true             |
-| github.com/google/cel-go                                                                | v0.22.0                               | v0.23.1                             | false  | true             |
+| github.com/google/cel-go                                                                | v0.22.0                               | v0.23.2                             | false  | true             |
 | github.com/google/certificate-transparency-go                                           | v1.2.1                                | v1.3.1                              | false  | true             |
 | github.com/google/gnostic-models                                                        | v0.6.9-0.20230804172637-c7be7c783f49  | v0.6.9                              | false  | true             |
 | github.com/google/go-cmp                                                                | v0.6.0                                |                                     | true   | true             |
@@ -407,7 +408,7 @@ _Generated on Fri, 31 Jan 2025 22:04:40 UTC for commit [fe40da8][0]._
 | github.com/google/go-intervals                                                          | v0.0.2                                |                                     | false  | true             |
 | github.com/google/go-querystring                                                        | v1.1.0                                |                                     | false  | true             |
 | github.com/google/gofuzz                                                                | v1.2.0                                |                                     | false  | true             |
-| github.com/google/pprof                                                                 | v0.0.0-20241210010833-40e02aabc2ad    | v0.0.0-20250128161936-077ca0a936bf  | false  | true             |
+| github.com/google/pprof                                                                 | v0.0.0-20241210010833-40e02aabc2ad    | v0.0.0-20250202011525-fc3143867406  | false  | true             |
 | github.com/google/renameio                                                              | v1.0.1                                |                                     | true   | true             |
 | github.com/google/rpmpack                                                               | v0.6.0                                |                                     | false  | true             |
 | github.com/google/s2a-go                                                                | v0.1.8                                | v0.1.9                              | false  | true             |
@@ -457,7 +458,7 @@ _Generated on Fri, 31 Jan 2025 22:04:40 UTC for commit [fe40da8][0]._
 | github.com/jpillora/backoff                                                             | v1.0.0                                |                                     | false  | true             |
 | github.com/json-iterator/go                                                             | v1.1.12                               |                                     | true   | true             |
 | github.com/julienschmidt/httprouter                                                     | v1.3.0                                |                                     | false  | true             |
-| github.com/kata-containers/kata-containers/src/runtime                                  | v0.0.0-20240208092920-b99f57452225    | v0.0.0-20250131161802-41f23f1d2a96  | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime                                  | v0.0.0-20240208092920-b99f57452225    | v0.0.0-20250201072944-a806d74ce32e  | true   | true             |
 | github.com/kevinburke/ssh_config                                                        | v1.2.0                                |                                     | false  | true             |
 | github.com/kisielk/errcheck                                                             | v1.5.0                                | v1.8.0                              | false  | true             |
 | github.com/kisielk/gotool                                                               | v1.0.0                                |                                     | false  | true             |
@@ -756,7 +757,7 @@ _Generated on Fri, 31 Jan 2025 22:04:40 UTC for commit [fe40da8][0]._
 | sigs.k8s.io/json                                                                        | v0.0.0-20241010143419-9aa6b5e7a4b3    | v0.0.0-20241014173422-cfa47c3a1cc8  | false  | true             |
 | sigs.k8s.io/knftables                                                                   | v0.0.18                               |                                     | false  | true             |
 | sigs.k8s.io/release-sdk                                                                 | v0.12.1                               |                                     | true   | true             |
-| sigs.k8s.io/release-utils                                                               | v0.9.0                                | v0.10.0                             | true   | true             |
+| sigs.k8s.io/release-utils                                                               | v0.9.0                                | v0.11.0                             | true   | true             |
 | sigs.k8s.io/structured-merge-diff/v4                                                    | v4.4.2                                | v4.5.0                              | false  | true             |
 | sigs.k8s.io/yaml                                                                        | v1.4.0                                |                                     | true   | true             |
 | software.sslmate.com/src/go-pkcs12                                                      | v0.4.0                                | v0.5.0                              | false  | true             |
