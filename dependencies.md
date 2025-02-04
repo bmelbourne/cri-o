@@ -1,8 +1,8 @@
 # CRI-O Dependency Report
 
-_Generated on Tue, 04 Feb 2025 14:01:18 UTC for commit [b7dd2f3][0]._
+_Generated on Tue, 04 Feb 2025 16:36:51 UTC for commit [c4e711b][0]._
 
-[0]: https://github.com/cri-o/cri-o/commit/b7dd2f355a611c8126b97e499ff63a572a1668a6
+[0]: https://github.com/cri-o/cri-o/commit/c4e711bb838f65a733300aaa18b828e4dad29b09
 
 ## Outdated Dependencies
 
@@ -14,6 +14,8 @@ _Generated on Tue, 04 Feb 2025 14:01:18 UTC for commit [b7dd2f3][0]._
 | github.com/cyphar/filepath-securejoin                  | v0.3.6                             | v0.4.1                             | true   | true             |
 | github.com/go-chi/chi/v5                               | v5.2.0                             | v5.2.1                             | true   | true             |
 | github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20250204130949-9060904c4f3f | true   | true             |
+| golang.org/x/sync                                      | v0.10.0                            | v0.11.0                            | true   | true             |
+| golang.org/x/sys                                       | v0.29.0                            | v0.30.0                            | true   | true             |
 | k8s.io/utils                                           | v0.0.0-20241104100929-3ea5e8cea738 | v0.0.0-20241210054802-24370beab758 | true   | true             |
 | sigs.k8s.io/release-utils                              | v0.10.0                            | v0.11.0                            | true   | true             |
 
@@ -707,15 +709,15 @@ _Generated on Tue, 04 Feb 2025 14:01:18 UTC for commit [b7dd2f3][0]._
 | golang.org/x/crypto                                                                     | v0.32.0                               |                                     | false  | true             |
 | golang.org/x/exp                                                                        | v0.0.0-20241009180824-f66d83c29e7c    | v0.0.0-20250128182459-e0ece0dbea4c  | false  | true             |
 | golang.org/x/lint                                                                       | v0.0.0-20190930215403-16217165b5de    | v0.0.0-20241112194109-818c5a804067  | false  | true             |
-| golang.org/x/mod                                                                        | v0.22.0                               |                                     | false  | true             |
+| golang.org/x/mod                                                                        | v0.22.0                               | v0.23.0                             | false  | true             |
 | golang.org/x/net                                                                        | v0.34.0                               |                                     | false  | true             |
-| golang.org/x/oauth2                                                                     | v0.24.0                               | v0.25.0                             | false  | true             |
-| golang.org/x/sync                                                                       | v0.10.0                               |                                     | true   | true             |
-| golang.org/x/sys                                                                        | v0.29.0                               |                                     | true   | true             |
-| golang.org/x/telemetry                                                                  | v0.0.0-20240521205824-bda55230c457    | v0.0.0-20250117155846-04cd7bae618c  | false  | true             |
-| golang.org/x/term                                                                       | v0.28.0                               |                                     | false  | true             |
-| golang.org/x/text                                                                       | v0.21.0                               |                                     | false  | true             |
-| golang.org/x/time                                                                       | v0.7.0                                | v0.9.0                              | false  | true             |
+| golang.org/x/oauth2                                                                     | v0.24.0                               | v0.26.0                             | false  | true             |
+| golang.org/x/sync                                                                       | v0.10.0                               | v0.11.0                             | true   | true             |
+| golang.org/x/sys                                                                        | v0.29.0                               | v0.30.0                             | true   | true             |
+| golang.org/x/telemetry                                                                  | v0.0.0-20240521205824-bda55230c457    | v0.0.0-20250204155029-60cba7f74efa  | false  | true             |
+| golang.org/x/term                                                                       | v0.28.0                               | v0.29.0                             | false  | true             |
+| golang.org/x/text                                                                       | v0.21.0                               | v0.22.0                             | false  | true             |
+| golang.org/x/time                                                                       | v0.7.0                                | v0.10.0                             | false  | true             |
 | golang.org/x/tools                                                                      | v0.28.0                               | v0.29.0                             | false  | true             |
 | golang.org/x/xerrors                                                                    | v0.0.0-20231012003039-104605ab7028    | v0.0.0-20240903120638-7835f813f4da  | false  | true             |
 | google.golang.org/api                                                                   | v0.195.0                              | v0.219.0                            | false  | true             |
