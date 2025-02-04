@@ -1,8 +1,8 @@
 # CRI-O Dependency Report
 
-_Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
+_Generated on Tue, 04 Feb 2025 14:01:18 UTC for commit [b7dd2f3][0]._
 
-[0]: https://github.com/cri-o/cri-o/commit/adfec0a4b167a951b07c6fdc5f06a55231db611a
+[0]: https://github.com/cri-o/cri-o/commit/b7dd2f355a611c8126b97e499ff63a572a1668a6
 
 ## Outdated Dependencies
 
@@ -12,9 +12,10 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | github.com/containers/image/v5                         | v5.33.1                            | v5.34.0                            | true   | true             |
 | github.com/containers/storage                          | v1.56.1                            | v1.57.1                            | true   | true             |
 | github.com/cyphar/filepath-securejoin                  | v0.3.6                             | v0.4.1                             | true   | true             |
-| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20250201072944-a806d74ce32e | true   | true             |
+| github.com/go-chi/chi/v5                               | v5.2.0                             | v5.2.1                             | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20240208092920-b99f57452225 | v0.0.0-20250204130949-9060904c4f3f | true   | true             |
 | k8s.io/utils                                           | v0.0.0-20241104100929-3ea5e8cea738 | v0.0.0-20241210054802-24370beab758 | true   | true             |
-| sigs.k8s.io/release-utils                              | v0.9.0                             | v0.11.0                            | true   | true             |
+| sigs.k8s.io/release-utils                              | v0.10.0                            | v0.11.0                            | true   | true             |
 
 ## All Dependencies
 
@@ -43,7 +44,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | cloud.google.com/go/baremetalsolution                                                   | v1.2.11                               | v1.3.3                              | false  | true             |
 | cloud.google.com/go/batch                                                               | v1.9.4                                | v1.11.5                             | false  | true             |
 | cloud.google.com/go/beyondcorp                                                          | v1.0.11                               | v1.1.3                              | false  | true             |
-| cloud.google.com/go/bigquery                                                            | v1.62.0                               | v1.66.0                             | false  | true             |
+| cloud.google.com/go/bigquery                                                            | v1.62.0                               | v1.66.1                             | false  | true             |
 | cloud.google.com/go/bigtable                                                            | v1.29.0                               | v1.35.0                             | false  | true             |
 | cloud.google.com/go/billing                                                             | v1.18.10                              | v1.20.1                             | false  | true             |
 | cloud.google.com/go/binaryauthorization                                                 | v1.8.8                                | v1.9.3                              | false  | true             |
@@ -128,7 +129,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | cloud.google.com/go/securitycenter                                                      | v1.34.0                               | v1.35.3                             | false  | true             |
 | cloud.google.com/go/servicedirectory                                                    | v1.11.12                              | v1.12.3                             | false  | true             |
 | cloud.google.com/go/shell                                                               | v1.7.12                               | v1.8.3                              | false  | true             |
-| cloud.google.com/go/spanner                                                             | v1.67.0                               | v1.74.0                             | false  | true             |
+| cloud.google.com/go/spanner                                                             | v1.67.0                               | v1.75.0                             | false  | true             |
 | cloud.google.com/go/speech                                                              | v1.24.1                               | v1.26.0                             | false  | true             |
 | cloud.google.com/go/storage                                                             | v1.39.1                               | v1.50.0                             | false  | true             |
 | cloud.google.com/go/storagetransfer                                                     | v1.10.11                              | v1.12.1                             | false  | true             |
@@ -146,7 +147,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | cloud.google.com/go/webrisk                                                             | v1.9.12                               | v1.10.3                             | false  | true             |
 | cloud.google.com/go/websecurityscanner                                                  | v1.6.12                               | v1.7.3                              | false  | true             |
 | cloud.google.com/go/workflows                                                           | v1.12.11                              | v1.13.3                             | false  | true             |
-| code.cloudfoundry.org/bytefmt                                                           | v0.0.0-20211005130812-5bb3c17173e5    | v0.27.0                             | false  | true             |
+| code.cloudfoundry.org/bytefmt                                                           | v0.0.0-20211005130812-5bb3c17173e5    | v0.28.0                             | false  | true             |
 | cuelabs.dev/go/oci/ociregistry                                                          | v0.0.0-20240314152124-224736b49f2e    | v0.0.0-20241125120445-2c00c104c6e1  | false  | true             |
 | cuelang.org/go                                                                          | v0.8.1                                | v0.12.0                             | false  | true             |
 | dario.cat/mergo                                                                         | v1.0.1                                |                                     | false  | true             |
@@ -162,7 +163,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | github.com/Azure/azure-sdk-for-go/sdk/internal                                          | v1.10.0                               |                                     | false  | true             |
 | github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azkeys                          | v1.1.0                                | v1.3.0                              | false  | true             |
 | github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/internal                        | v1.0.0                                | v1.1.0                              | false  | true             |
-| github.com/Azure/go-ansiterm                                                            | v0.0.0-20230124172434-306776ec8161    | v0.0.0-20250102033503-faa5f7b0171c  | false  | true             |
+| github.com/Azure/go-ansiterm                                                            | v0.0.0-20250102033503-faa5f7b0171c    |                                     | false  | true             |
 | github.com/Azure/go-autorest                                                            | v14.2.0+incompatible                  |                                     | false  | true             |
 | github.com/Azure/go-autorest/autorest                                                   | v0.11.29                              | v0.11.30                            | false  | true             |
 | github.com/Azure/go-autorest/autorest/adal                                              | v0.9.23                               | v0.9.24                             | false  | true             |
@@ -352,7 +353,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | github.com/fxamacker/cbor/v2                                                            | v2.7.0                                |                                     | false  | true             |
 | github.com/gliderlabs/ssh                                                               | v0.3.8                                |                                     | false  | true             |
 | github.com/go-chi/chi                                                                   | v4.1.2+incompatible                   |                                     | false  | true             |
-| github.com/go-chi/chi/v5                                                                | v5.2.0                                |                                     | true   | true             |
+| github.com/go-chi/chi/v5                                                                | v5.2.0                                | v5.2.1                              | true   | true             |
 | github.com/go-git/gcfg                                                                  | v1.5.1-0.20230307220236-3a3c6141e376  |                                     | false  | true             |
 | github.com/go-git/go-billy/v5                                                           | v5.6.1                                | v5.6.2                              | false  | true             |
 | github.com/go-git/go-git-fixtures/v4                                                    | v4.3.2-0.20231010084843-55a94097c399  |                                     | false  | true             |
@@ -458,7 +459,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | github.com/jpillora/backoff                                                             | v1.0.0                                |                                     | false  | true             |
 | github.com/json-iterator/go                                                             | v1.1.12                               |                                     | true   | true             |
 | github.com/julienschmidt/httprouter                                                     | v1.3.0                                |                                     | false  | true             |
-| github.com/kata-containers/kata-containers/src/runtime                                  | v0.0.0-20240208092920-b99f57452225    | v0.0.0-20250201072944-a806d74ce32e  | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime                                  | v0.0.0-20240208092920-b99f57452225    | v0.0.0-20250204130949-9060904c4f3f  | true   | true             |
 | github.com/kevinburke/ssh_config                                                        | v1.2.0                                |                                     | false  | true             |
 | github.com/kisielk/errcheck                                                             | v1.5.0                                | v1.8.0                              | false  | true             |
 | github.com/kisielk/gotool                                                               | v1.0.0                                |                                     | false  | true             |
@@ -480,7 +481,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | github.com/lestrrat-go/jwx                                                              | v1.2.29                               | v1.2.30                             | false  | true             |
 | github.com/lestrrat-go/option                                                           | v1.0.1                                |                                     | false  | true             |
 | github.com/letsencrypt/borp                                                             | v0.0.0-20230707160741-6cc6ce580243    | v0.0.0-20240620175310-a78493c6e2bd  | false  | true             |
-| github.com/letsencrypt/boulder                                                          | v0.0.0-20240620165639-de9c06129bec    | v0.0.0-20250130223922-f11475ccc38e  | false  | true             |
+| github.com/letsencrypt/boulder                                                          | v0.0.0-20240620165639-de9c06129bec    | v0.0.0-20250203214735-6695895f8b2c  | false  | true             |
 | github.com/letsencrypt/challtestsrv                                                     | v1.2.1                                | v1.3.2                              | false  | true             |
 | github.com/letsencrypt/pkcs11key/v4                                                     | v4.0.0                                |                                     | false  | true             |
 | github.com/letsencrypt/validator/v10                                                    | v10.0.0-20230215210743-a0c7dfc17158   | v10.0.0-20230304002924-2ed8f7d619ac | false  | true             |
@@ -519,7 +520,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | github.com/moby/sys/symlink                                                             | v0.2.0                                | v0.3.0                              | false  | true             |
 | github.com/moby/sys/user                                                                | v0.3.0                                |                                     | true   | true             |
 | github.com/moby/sys/userns                                                              | v0.1.0                                |                                     | true   | true             |
-| github.com/moby/term                                                                    | v0.5.0                                | v0.5.2                              | false  | true             |
+| github.com/moby/term                                                                    | v0.5.2                                |                                     | false  | true             |
 | github.com/modern-go/concurrent                                                         | v0.0.0-20180306012644-bacd9c7ef1dd    |                                     | false  | true             |
 | github.com/modern-go/reflect2                                                           | v1.0.2                                |                                     | false  | true             |
 | github.com/montanaflynn/stats                                                           | v0.0.0-20171201202039-1bf9dbcd8cbe    | v0.7.1                              | false  | true             |
@@ -709,7 +710,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | golang.org/x/mod                                                                        | v0.22.0                               |                                     | false  | true             |
 | golang.org/x/net                                                                        | v0.34.0                               |                                     | false  | true             |
 | golang.org/x/oauth2                                                                     | v0.24.0                               | v0.25.0                             | false  | true             |
-| golang.org/x/sync                                                                       | v0.10.0                               |                                     | false  | true             |
+| golang.org/x/sync                                                                       | v0.10.0                               |                                     | true   | true             |
 | golang.org/x/sys                                                                        | v0.29.0                               |                                     | true   | true             |
 | golang.org/x/telemetry                                                                  | v0.0.0-20240521205824-bda55230c457    | v0.0.0-20250117155846-04cd7bae618c  | false  | true             |
 | golang.org/x/term                                                                       | v0.28.0                               |                                     | false  | true             |
@@ -757,7 +758,7 @@ _Generated on Mon, 03 Feb 2025 11:51:23 UTC for commit [adfec0a][0]._
 | sigs.k8s.io/json                                                                        | v0.0.0-20241010143419-9aa6b5e7a4b3    | v0.0.0-20241014173422-cfa47c3a1cc8  | false  | true             |
 | sigs.k8s.io/knftables                                                                   | v0.0.18                               |                                     | false  | true             |
 | sigs.k8s.io/release-sdk                                                                 | v0.12.1                               |                                     | true   | true             |
-| sigs.k8s.io/release-utils                                                               | v0.9.0                                | v0.11.0                             | true   | true             |
+| sigs.k8s.io/release-utils                                                               | v0.10.0                               | v0.11.0                             | true   | true             |
 | sigs.k8s.io/structured-merge-diff/v4                                                    | v4.4.2                                | v4.5.0                              | false  | true             |
 | sigs.k8s.io/yaml                                                                        | v1.4.0                                |                                     | true   | true             |
 | software.sslmate.com/src/go-pkcs12                                                      | v0.4.0                                | v0.5.0                              | false  | true             |
