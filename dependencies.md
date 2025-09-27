@@ -1,15 +1,15 @@
 # CRI-O Dependency Report
 
-_Generated on Fri, 26 Sep 2025 20:42:39 UTC for commit [4fb3ffc][0]._
+_Generated on Sat, 27 Sep 2025 10:50:15 UTC for commit [91feea5][0]._
 
-[0]: https://github.com/cri-o/cri-o/commit/4fb3ffc46572c9deb3ca51ee2983e5203d381245
+[0]: https://github.com/cri-o/cri-o/commit/91feea5ec7037aadf900e243df7ef741727f1e14
 
 ## Outdated Dependencies
 
 |                         MODULE                         |              VERSION               |            NEW VERSION             | DIRECT | VALID TIMESTAMPS |
 |--------------------------------------------------------|------------------------------------|------------------------------------|--------|------------------|
 | github.com/cyphar/filepath-securejoin                  | v0.4.1                             | v0.5.0                             | true   | true             |
-| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20250828155603-754f07cff239 | v0.0.0-20250926183223-32453a576f16 | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20250828155603-754f07cff239 | v0.0.0-20250926222716-c4e352f7ff86 | true   | true             |
 | k8s.io/utils                                           | v0.0.0-20250604170112-4c0f3b243397 | v0.0.0-20250820121507-0af2bda4dd1d | true   | true             |
 | sigs.k8s.io/knftables                                  | v0.0.18                            | v0.0.19                            | true   | true             |
 | sigs.k8s.io/release-utils                              | v0.12.1                            | v0.12.2                            | true   | true             |
@@ -42,7 +42,7 @@ _Generated on Fri, 26 Sep 2025 20:42:39 UTC for commit [4fb3ffc][0]._
 | cloud.google.com/go/batch                                                   | v1.12.0                               | v1.12.2                             | false  | true             |
 | cloud.google.com/go/beyondcorp                                              | v1.1.3                                | v1.1.6                              | false  | true             |
 | cloud.google.com/go/bigquery                                                | v1.66.2                               | v1.70.0                             | false  | true             |
-| cloud.google.com/go/bigtable                                                | v1.35.0                               | v1.40.0                             | false  | true             |
+| cloud.google.com/go/bigtable                                                | v1.35.0                               | v1.40.1                             | false  | true             |
 | cloud.google.com/go/billing                                                 | v1.20.1                               | v1.20.4                             | false  | true             |
 | cloud.google.com/go/binaryauthorization                                     | v1.9.3                                | v1.9.5                              | false  | true             |
 | cloud.google.com/go/certificatemanager                                      | v1.9.3                                | v1.9.5                              | false  | true             |
@@ -358,12 +358,12 @@ _Generated on Fri, 26 Sep 2025 20:42:39 UTC for commit [4fb3ffc][0]._
 | github.com/go-openapi/errors                                                | v0.22.1                               | v0.22.3                             | false  | true             |
 | github.com/go-openapi/jsonpointer                                           | v0.21.0                               | v0.22.1                             | false  | true             |
 | github.com/go-openapi/jsonreference                                         | v0.21.0                               | v0.21.2                             | false  | true             |
-| github.com/go-openapi/loads                                                 | v0.22.0                               | v0.23.0                             | false  | true             |
-| github.com/go-openapi/runtime                                               | v0.28.0                               |                                     | false  | true             |
+| github.com/go-openapi/loads                                                 | v0.22.0                               | v0.23.1                             | false  | true             |
+| github.com/go-openapi/runtime                                               | v0.28.0                               | v0.29.0                             | false  | true             |
 | github.com/go-openapi/spec                                                  | v0.21.0                               | v0.22.0                             | false  | true             |
 | github.com/go-openapi/strfmt                                                | v0.23.0                               | v0.24.0                             | false  | true             |
 | github.com/go-openapi/swag                                                  | v0.23.1                               | v0.25.1                             | false  | true             |
-| github.com/go-openapi/validate                                              | v0.24.0                               |                                     | false  | true             |
+| github.com/go-openapi/validate                                              | v0.24.0                               | v0.25.0                             | false  | true             |
 | github.com/go-piv/piv-go/v2                                                 | v2.3.0                                | v2.4.0                              | false  | true             |
 | github.com/go-playground/locales                                            | v0.14.1                               |                                     | false  | true             |
 | github.com/go-playground/universal-translator                               | v0.18.1                               |                                     | false  | true             |
@@ -441,7 +441,7 @@ _Generated on Fri, 26 Sep 2025 20:42:39 UTC for commit [4fb3ffc][0]._
 | github.com/jpillora/backoff                                                 | v1.0.0                                |                                     | false  | true             |
 | github.com/json-iterator/go                                                 | v1.1.12                               |                                     | true   | true             |
 | github.com/julienschmidt/httprouter                                         | v1.3.0                                |                                     | false  | true             |
-| github.com/kata-containers/kata-containers/src/runtime                      | v0.0.0-20250828155603-754f07cff239    | v0.0.0-20250926183223-32453a576f16  | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime                      | v0.0.0-20250828155603-754f07cff239    | v0.0.0-20250926222716-c4e352f7ff86  | true   | true             |
 | github.com/kevinburke/ssh_config                                            | v1.2.0                                | v1.4.0                              | false  | true             |
 | github.com/keybase/go-keychain                                              | v0.0.1                                |                                     | false  | true             |
 | github.com/kisielk/errcheck                                                 | v1.5.0                                | v1.9.0                              | false  | true             |
