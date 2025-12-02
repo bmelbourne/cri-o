@@ -1,8 +1,8 @@
 # CRI-O Dependency Report
 
-_Generated on Sun, 30 Nov 2025 22:08:16 UTC for commit [c0202e0][0]._
+_Generated on Tue, 02 Dec 2025 13:08:25 UTC for commit [78732e4][0]._
 
-[0]: https://github.com/cri-o/cri-o/commit/c0202e05b7354fd9e6839f133f500e1e0802ce7d
+[0]: https://github.com/cri-o/cri-o/commit/78732e4e4b96269ead01732d1952a7be7a6891ae
 
 ## Outdated Dependencies
 
@@ -14,7 +14,7 @@ _Generated on Sun, 30 Nov 2025 22:08:16 UTC for commit [c0202e0][0]._
 | github.com/cyphar/filepath-securejoin                  | v0.4.1                               | v0.6.1                             | true   | true             |
 | github.com/godbus/dbus/v5                              | v5.1.1-0.20230522191255-76236955d466 | v5.2.0                             | true   | true             |
 | github.com/intel/goresctrl                             | v0.9.0                               | v0.10.0                            | true   | true             |
-| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20250828155603-754f07cff239   | v0.0.0-20251128180057-5a5c43429e62 | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime | v0.0.0-20250828155603-754f07cff239   | v0.0.0-20251202090409-5c618dc8e2d6 | true   | true             |
 | github.com/opencontainers/runc                         | v1.3.2                               | v1.4.0                             | true   | true             |
 | github.com/opencontainers/runtime-spec                 | v1.2.1                               | v1.3.0                             | true   | true             |
 | github.com/opencontainers/selinux                      | v1.12.0                              | v1.13.1                            | true   | true             |
@@ -241,7 +241,7 @@ _Generated on Sun, 30 Nov 2025 22:08:16 UTC for commit [c0202e0][0]._
 | github.com/aws/aws-sdk-go-v2/service/sso                                    | v1.28.0                               | v1.30.5                             | false  | true             |
 | github.com/aws/aws-sdk-go-v2/service/ssooidc                                | v1.33.0                               | v1.35.10                            | false  | true             |
 | github.com/aws/aws-sdk-go-v2/service/sts                                    | v1.37.0                               | v1.41.2                             | false  | true             |
-| github.com/aws/smithy-go                                                    | v1.22.5                               | v1.23.2                             | false  | true             |
+| github.com/aws/smithy-go                                                    | v1.22.5                               | v1.24.0                             | false  | true             |
 | github.com/awslabs/amazon-ecr-credential-helper/ecr-login                   | v0.9.1                                | v0.11.0                             | false  | true             |
 | github.com/beorn7/perks                                                     | v1.0.1                                |                                     | false  | true             |
 | github.com/blang/semver                                                     | v3.5.1+incompatible                   |                                     | false  | true             |
@@ -461,12 +461,12 @@ _Generated on Sun, 30 Nov 2025 22:08:16 UTC for commit [c0202e0][0]._
 | github.com/jpillora/backoff                                                 | v1.0.0                                |                                     | false  | true             |
 | github.com/json-iterator/go                                                 | v1.1.12                               |                                     | true   | true             |
 | github.com/julienschmidt/httprouter                                         | v1.3.0                                |                                     | false  | true             |
-| github.com/kata-containers/kata-containers/src/runtime                      | v0.0.0-20250828155603-754f07cff239    | v0.0.0-20251128180057-5a5c43429e62  | true   | true             |
+| github.com/kata-containers/kata-containers/src/runtime                      | v0.0.0-20250828155603-754f07cff239    | v0.0.0-20251202090409-5c618dc8e2d6  | true   | true             |
 | github.com/kevinburke/ssh_config                                            | v1.2.0                                | v1.4.0                              | false  | true             |
 | github.com/keybase/go-keychain                                              | v0.0.1                                |                                     | false  | true             |
 | github.com/kisielk/errcheck                                                 | v1.5.0                                | v1.9.0                              | false  | true             |
 | github.com/kisielk/gotool                                                   | v1.0.0                                |                                     | false  | true             |
-| github.com/klauspost/compress                                               | v1.18.0                               | v1.18.1                             | false  | true             |
+| github.com/klauspost/compress                                               | v1.18.0                               | v1.18.2                             | false  | true             |
 | github.com/klauspost/cpuid/v2                                               | v2.0.4                                | v2.3.0                              | false  | true             |
 | github.com/klauspost/pgzip                                                  | v1.2.6                                |                                     | false  | true             |
 | github.com/knqyf263/go-plugin                                               | v0.9.0                                |                                     | false  | true             |
@@ -573,9 +573,9 @@ _Generated on Sun, 30 Nov 2025 22:08:16 UTC for commit [c0202e0][0]._
 | github.com/prometheus/procfs                                                | v0.16.1                               | v0.19.2                             | false  | true             |
 | github.com/protocolbuffers/txtpbfmt                                         | v0.0.0-20250218085312-1ee4910263ac    | v0.0.0-20251124094003-fcb97cc64c7b  | false  | true             |
 | github.com/rcrowley/go-metrics                                              | v0.0.0-20201227073835-cf1acfcdf475    | v0.0.0-20250401214520-65e299d6c5c9  | false  | true             |
-| github.com/redis/go-redis/extra/rediscmd/v9                                 | v9.5.3                                | v9.17.1                             | false  | true             |
-| github.com/redis/go-redis/extra/redisotel/v9                                | v9.5.3                                | v9.17.1                             | false  | true             |
-| github.com/redis/go-redis/v9                                                | v9.5.3                                | v9.17.1                             | false  | true             |
+| github.com/redis/go-redis/extra/rediscmd/v9                                 | v9.5.3                                | v9.17.2                             | false  | true             |
+| github.com/redis/go-redis/extra/redisotel/v9                                | v9.5.3                                | v9.17.2                             | false  | true             |
+| github.com/redis/go-redis/v9                                                | v9.5.3                                | v9.17.2                             | false  | true             |
 | github.com/rivo/uniseg                                                      | v0.4.7                                |                                     | false  | true             |
 | github.com/rogpeppe/fastuuid                                                | v1.2.0                                |                                     | false  | true             |
 | github.com/rogpeppe/go-internal                                             | v1.14.1                               |                                     | false  | true             |
@@ -680,7 +680,7 @@ _Generated on Sun, 30 Nov 2025 22:08:16 UTC for commit [c0202e0][0]._
 | github.com/zeebo/errs                                                       | v1.4.0                                |                                     | false  | true             |
 | github.com/zmap/zcrypto                                                     | v0.0.0-20231219022726-a1f61fb1661c    | v0.0.0-20251114214934-bb32b590b717  | false  | true             |
 | github.com/zmap/zlint/v3                                                    | v3.6.4                                | v3.6.8                              | false  | true             |
-| gitlab.com/gitlab-org/api/client-go                                         | v0.127.0                              | v1.2.0                              | false  | true             |
+| gitlab.com/gitlab-org/api/client-go                                         | v0.127.0                              | v1.3.1                              | false  | true             |
 | gitlab.com/nvidia/cloud-native/go-nvlib                                     | v0.0.0-20220601114329-47893b162965    | v0.0.0-20231115170030-b21432a353e1  | false  | true             |
 | go.etcd.io/bbolt                                                            | v1.4.3                                |                                     | false  | true             |
 | go.etcd.io/etcd/api/v3                                                      | v3.6.4                                | v3.6.6                              | false  | true             |
